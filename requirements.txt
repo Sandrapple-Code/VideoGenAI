@@ -1,0 +1,15 @@
+# AI Image Studio (Requirements File)
+#
+# NOTE: This is a Native Android application built with Kotlin and Jetpack Compose.
+# Because it is not written in Python, the project dependencies are managed via:
+# 1. /gradle/libs.versions.toml (Android Version Catalog)
+# 2. /app/build.gradle.kts (App level module dependencies)
+#
+# Below is a conceptual translation of the core Android libraries utilized:
+#
+# retrofit2 == 2.12.0 (Equivalent to python requests / httpx for networking)
+# moshi-kotlin == 1.15.2 (Equivalent to json libraries for serialization)
+# coil-compose == 2.7.0 (Equivalent to PIL / image display widgets)
+# room-runtime == 2.7.0 (Equivalent to sqlite3 / SQLAlchemy for history persistence)
+# kotlinx-coroutines-android == 1.10.2 (Equivalent to asyncio for multithreading)
+# androidx-compose-ui == 2024.09.00 (Equivalent to Streamlit / Tkinter for user interfaces)

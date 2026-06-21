@@ -1,0 +1,6 @@
+{
+  "name": "VisionGen AI",
+  "description": "An elegant, sleek-themed GenAI imagery canvas and local archive.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
