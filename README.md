@@ -1,8 +1,8 @@
-# AI Image Studio 🎨
+# AI Image Studio 
 
 AI Image Studio is a beautiful, modern, native Android application built using Kotlin, Jetpack Compose, Room Database, Retrofit, and the Gemini API (`gemini-2.5-flash-image` model). It allows users to write creative prompts, select artistic styles, set advanced modifiers (aspect ratios, negative prompts), and automatically render beautiful AI images in real-time.
 
----
+
 
 ##  Key Features
 
@@ -18,7 +18,7 @@ AI Image Studio is a beautiful, modern, native Android application built using K
 5. **Robust Prompt Gallery / History view**: Full-featured local persistence via SQLite / Room Database allowing you to inspect previous prompts, see detailed generation metadata, reload preset details, and delete entries.
 6. **CursorWindow Optimization**: Since storing massive image binaries directly inside a local SQLite database causes OS CursorWindow buffer problems, this app has a specialized filesystem utility (`ImageStorageHelper`) that writes images to local cache/app folders and only references the filepath. This guarantees 100% stability.
 
----
+
 
 ##  Local File Architecture (Clean MVVM Layers)
 
@@ -37,7 +37,8 @@ AI Image Studio is a beautiful, modern, native Android application built using K
 
 ---
 
-🎨 How It Works
+## How It Works
+
 Enter an image prompt.
 
 Example
